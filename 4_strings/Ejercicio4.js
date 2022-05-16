@@ -43,10 +43,14 @@ console.log(primeraLetra)
 
 var ultimaLetra = estudiante.charAt(18)
 console.log(ultimaLetra)
+// const inicialNombre = nombre.substring(0, 1)
+// Todas válidas
+// const finalApellido = apellido[apellido.length - 1]
+// const finalApellido = nombre.at(apellido.length - 1)
+// const finalApellido = apellido.substring(apellido.length - 1, apellido.length)
 
-var borrarEspacios = estudiante
+var borrarEspacios = estudiante.replace(/ /, "")
 console.log(borrarEspacios)
 
-var booleana = {
-
-}
+var booleana = estudiante.includes(nombre)
+console.log(booleana)

@@ -29,4 +29,4 @@ console.log(alturaArriba)
 var alturaAbajo = Math.floor(altura)
 console.log(alturaAbajo)
 
-var maximoValor = .MAX_VALUE()
+const sonIguales = Number.MAX_VALUE + 1 === Number.MAX_VALUE
